@@ -8,7 +8,7 @@
 
 .btn_x_padding{
     border: none;
-    padding: 20px;
+    padding: 5px;
 }
 .service{
     width: 50px;
@@ -18,3 +18,8 @@
    padding: 5px;
    background-color:antiquewhite;
 }
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
